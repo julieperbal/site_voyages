@@ -1,0 +1,168 @@
+body{
+  width: 99vw;
+  height: 100%;
+  margin: 0;
+  overflow: scroll;
+}
+container-main{
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/**************************
+
+    Barre du haut SVG
+
+***************************/
+div.myDiv {
+  background-color: #1C1C1C;*/
+  margin-left: -1%;
+    /*-ms-transform: rotate(-5deg); /* IE 9 */*/
+    /*-webkit-transform: rotate(-5deg); /* Safari */*/
+    /*transform: rotate(-5deg); /* Standard syntax */*/
+}
+.svg-block{
+/*fill permet de changer la couleur du SVG*/
+  fill: #1C1C1C;
+
+  stroke: none;
+}
+.nav-svg{
+  position: relative;
+  z-index: 11;
+  /*margin-bottom: -7.81%;*/
+}
+.svg-container{
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  padding-top: 7.93650794%;
+}
+div.myDiv2 {
+  height: 1000px;
+  background-color: #1C1C1C;
+  margin-top: 30%;
+  margin-left: 1%;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg); /* Standard syntax */
+}
+/*div.post-svg{
+  margin-bottom: -7.74%;
+  position: relative;
+  z-index: 11;
+}*/
+/***************************************
+
+             IMAGE DE FOND
+
+<**************************************/
+header{
+  background-position: 50% 17px;
+}
+.site-header{
+  background: url("fond2.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 45px;
+}
+.overlay{
+  box-sizing: border-box;
+}
+@media.container{
+  width: 1170px;
+}
+/***************************************
+
+        BARRE DIAGONALE BAS SVG
+
+<**************************************/
+.header-svg{
+  margin-top: 15%;
+  background-color: transparent;
+}
+.after-svg{
+  background-color: #1C1C1C;
+  height: 300px;
+  margin-top: -0.3%;
+}
+/***************************************
+
+               PARALLAX
+
+<**************************************/
+section {
+  /*width: 100%;
+  height: 100vh;
+  flex: 1;*/
+  text-align: cenBibliothèque jQueryter;
+  position: relative;
+  /*background-color: #000;*/
+}
+
+.image {
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+    /*opacity: 0.4;*/
+}
+
+  /*.stuff {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    color: #e67e22;
+    margin: 0 auto;
+    font-size: 26px;
+    position: relative;}*/
+
+h2 {
+      margin: 0px;
+}
+&:before, &:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #d35400;
+  content: "";
+  margin: 30px 0;
+   }
+  }
+}
+}
+/***************************************
+
+             ARTICLE
+
+<**************************************/
+#artcile-post{
+  width: 900px;
+  height: 300px;
+  background-color: white;
+}
+article#post-19{
+  position: absolute;
+  left: 20%;
+  margin-top: 5%;
+  z-index: 30;
+  width: 900px;
+}
+.grid.layout .hentry{
+  width: 500px;
+  margin: 15px;
+  padding: 0;
+  background-color: white;
+}
